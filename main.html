@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta title="Guess the Number Game">
+        <title>Guess the Number Game!</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js" defer></script>
+    </head>
+    <body>
+        <!-- <div class="welcome_section">
+
+        </div> -->
+        <div class="game_section">
+
+            <div class="show_area">
+                <h2>1から40の間の数字を当ててください！</h2>
+                <div class="message_area" id="message_area_id">
+
+                </div>
+                <div class="num_area">
+                    <input type="number" id="chosen_num_area"
+                        placeholder="選んだ数字" readonly />
+
+                    <div class="attempts_area">試行回数 : <span
+                            id="attemptCount"></span></div>
+                </div>
+                <div class="clickable_btn_area">
+                    <button class="btn_area check" id="btn_check">チェック</button>
+                    <button class="btn_area new_game" id="btn_newgame">新しいゲーム</button>
+                </div>
+            </div>
+            <div class="content_area">
+                <div class="num_grid_area">
+                    <!-- 1 to 40 numbers -->
+                    <div class="numbers">
+                        <button id="num1">1</button>
+                        <button id="num2">2</button>
+                        <button id="num3">3</button>
+                        <button id="num4">4</button>
+                        <button id="num5">5</button>
+                        <button id="num6">6</button>
+                        <button id="num7">7</button>
+                        <button id="num8">8</button>
+                        <button id="num9">9</button>
+                        <button id="num10">10</button>
+                        <button id="num11">11</button>
+                        <button id="num12">12</button>
+                        <button id="num13">13</button>
+                        <button id="num14">14</button>
+                        <button id="num15">15</button>
+                        <button id="num16">16</button>
+                        <button id="num17">17</button>
+                        <button id="num18">18</button>
+                        <button id="num19">19</button>
+                        <button id="num20">20</button>
+                        <button id="num21">21</button>
+                        <button id="num22">22</button>
+                        <button id="num23">23</button>
+                        <button id="num24">24</button>
+                        <button id="num25">25</button>
+                        <button id="num26">26</button>
+                        <button id="num27">27</button>
+                        <button id="num28">28</button>
+                        <button id="num29">29</button>
+                        <button id="num30">30</button>
+                        <button id="num31">31</button>
+                        <button id="num32">32</button>
+                        <button id="num33">33</button>
+                        <button id="num34">34</button>
+                        <button id="num35">35</button>
+                        <button id="num36">36</button>
+                        <button id="num37">37</button>
+                        <button id="num38">38</button>
+                        <button id="num39">39</button>
+                        <button id="num40">40</button>
+                    </div>
+                </div>
+                <div class="history_num_area">
+                    <h4>履歴一覧</h4>
+                    <div class="history_list" id="history_list_id">
+                        <!-- <div>15</div>
+                        <div>21</div>
+                        <div>24</div>
+                        <div>1</div>
+                        <div>28</div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
