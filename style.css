@@ -21,7 +21,7 @@ body {
     min-height: 100dvh; 
     overflow: hidden;   
 }
-/* html, body {
+/* html, body {h2
     margin: 0;
     padding: 0;
     width: 100%;
@@ -157,7 +157,7 @@ h2 {
     margin-top: auto;
     margin-bottom: 8px;
     color: #5c1f40;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .history_list div {
@@ -174,7 +174,26 @@ h2 {
     body {
         padding: 5px;
     }
-
+    h2 {
+        font-size: 0.9rem;
+    }
+    .message_area{
+        font-size: 14px;
+    }
+    .btn_area{
+        font-size: 14px;
+    }
+    #chosen_num_area{
+         font-size: 14px;
+    }
+    .attempts_area{
+        font-size: 14px;
+    }
+    .numbers button{
+        font-size: 11px;
+        font-weight: 600;
+    }
+    
     .game_section {
         padding: 20px 10px;
     }
@@ -193,6 +212,7 @@ h2 {
 
     .history_num_area {
         text-align: center;
+        font-size: 14px;
     }
 
     .history_list {
