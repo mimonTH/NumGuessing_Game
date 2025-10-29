@@ -24,16 +24,16 @@ html, body {
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 100dvh;
-    overflow: hidden;
+    height: 100dvh; /* optional */
     overscroll-behavior: none;
-    -webkit-overflow-scrolling: none;
+    -webkit-overflow-scrolling: touch;
 }
 
 body {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start; /* not center, to allow content to grow */
+    padding: 20px 0; /* optional spacing */
 }
 .game_section {
     width: 435px;
